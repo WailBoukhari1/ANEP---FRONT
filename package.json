@@ -1,4 +1,5 @@
 {
+  "homepage": "https://wailboukhari1.github.io/ANEP---FRONT/",
   "name": "anep-fc",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@date-io/date-fns": "^3.0.0",
